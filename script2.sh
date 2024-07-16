@@ -143,7 +143,7 @@ discover_subdomains "$domain" "$output_file"
 echo -e "\n\e[94m[+] Contents of '$output_file':\e[0m\n"
 cat "$output_file"
 
-# ASCII art for closing message
+# ASCII art for closing message -]id_'Fq3)JX|N4az4&C2fmo9Er6.\T7
 echo -e "\e[92m"
 echo "Thank you for using the Subdomain Finder!"
 echo -e "\e[0m"
