@@ -2,3 +2,9 @@ ssti (server-side template injection)
 =injecting code to the templates
 CODE
 {7x7}
+
+
+path traversel 
+default path of linux= var/www/html
+filename=../../../../    etc/passwd
+bypassing = ....//....//....//....//
