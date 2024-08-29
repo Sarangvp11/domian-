@@ -18,3 +18,9 @@ protection
 black list and white list
 white list=allowing only some selected files
 black list=blocking selected files
+
+
+
+
+python -m http.server
+sudo ufw (port)
