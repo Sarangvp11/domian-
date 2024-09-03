@@ -19,8 +19,17 @@ black list and white list
 white list=allowing only some selected files
 black list=blocking selected files
 
-
-
-
 python -m http.server
 sudo ufw (port)
+
+
+Extensible Markup Language (xml)
+used to store or process data
+injection in to xml 
+entity= extenal entity , internal entity
+
+                              
+<!docktype test<!entity hello    
+SYSTEM file:///etc/paswd
+
+calling & hello;
