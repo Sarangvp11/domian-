@@ -1,20 +1,20 @@
-ssti (server-side template injection)
+    ssti (server-side template injection)
 =injecting code to the templates
 CODE
 {7x7}
 
 
-path traversel 
+    path traversel 
 default path of linux= var/www/html
 filename=../../../../    etc/passwd
 bypassing = ....//....//....//....//
 
 
-file upload
+    file upload
 =uploading virus files to a file upload funcanality 
 and exicuting in the file inside a server
 
-protection 
+  protection 
 black list and white list
 white list=allowing only some selected files
 black list=blocking selected files
@@ -23,7 +23,7 @@ python -m http.server
 sudo ufw (port)
 
 
-Extensible Markup Language (xml)
+    Extensible Markup Language (xml)
 used to store or process data
 injection in to xml 
 entity= extenal entity , internal entity
@@ -35,8 +35,24 @@ SYSTEM file:///etc/paswd
 calling & hello;
 
 
-sensitive data exposure (info discloshure)
+    sensitive data exposure (info discloshure)
 sensitive data exposing by mistake
 
 
 mrowid=internal erecord number to locate from table
+
+
+    authentication vulnerability
+=failing in verifying users
+
+
+authentication=verification
+
+enumaration=info garhering
+bruteforce=attack
+
+
+
+
+
+
