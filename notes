@@ -52,7 +52,12 @@ enumaration=info garhering
 bruteforce=attack
 
 
+acess control vulnerability
 
+with out authentication 
+giving acess to 
 
+admin \>>> pro user >>> normal user >>> guest user
+       \
 
-
+/robote.txt it is used the end og url to find admin page path and etc
