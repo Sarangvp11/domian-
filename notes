@@ -61,3 +61,9 @@ admin \>>> pro user >>> normal user >>> guest user
        \
 
 /robote.txt it is used the end og url to find admin page path and etc
+
+ssrf (server side requesr forgery)
+server side attack with changing parameters 
+the parameter must communicate with another server 
+using a server to attack another/same server
+
