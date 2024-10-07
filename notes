@@ -67,3 +67,6 @@ server side attack with changing parameters
 the parameter must communicate with another server 
 using a server to attack another/same server
 
+cros (cross-origin resources sharing)
+it is a funcanality used to share files
+allowing random domains 
