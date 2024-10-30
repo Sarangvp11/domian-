@@ -76,3 +76,6 @@ business logical vulnerability
 
 eg:-price tampering 
 
+
+clickjacking
+<iframe src="https://facebook.com/delete_account">
