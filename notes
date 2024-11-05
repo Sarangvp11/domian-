@@ -79,3 +79,13 @@ eg:-price tampering
 
 clickjacking
 <iframe src="https://facebook.com/delete_account">
+
+
+graphql api vulnerability
+graphquerey language
+api= used to establish faster communication betweeen clint and server
+normal available apis catagraisec as REST 
+
+REST request = sending request one by one 
+graphql = sending requests at ones  
+end point = www.example.com/graphql
