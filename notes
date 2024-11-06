@@ -52,7 +52,7 @@ enumaration=info garhering
 bruteforce=attack
 
 
-acess control vulnerability
+   acess control vulnerability
 
 with out authentication 
 giving acess to 
@@ -62,26 +62,26 @@ admin \>>> pro user >>> normal user >>> guest user
 
 /robote.txt it is used the end og url to find admin page path and etc
 
-ssrf (server side requesr forgery)
+  ssrf (server side requesr forgery)
 server side attack with changing parameters 
 the parameter must communicate with another server 
 using a server to attack another/same server
 
-cros (cross-origin resources sharing)
+  cros (cross-origin resources sharing)
 it is a funcanality used to share files
 allowing random domains 
 
 
-business logical vulnerability
+  business logical vulnerability
 
 eg:-price tampering 
 
 
-clickjacking
+   clickjacking
 <iframe src="https://facebook.com/delete_account">
 
 
-graphql api vulnerability
+  graphql api vulnerability
 graphquerey language
 api= used to establish faster communication betweeen clint and server
 normal available apis catagraisec as REST 
@@ -89,3 +89,14 @@ normal available apis catagraisec as REST
 REST request = sending request one by one 
 graphql = sending requests at ones  
 end point = www.example.com/graphql
+
+
+  session mgmt
+>session fixaction = able to chane token
+>session  is not terminating after logout (back button clicking)
+>password reset 
+>password change
+
+  token based vulnerability 
+>reusable token
+>old token can be used after getting a new token
