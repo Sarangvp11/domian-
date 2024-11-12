@@ -91,7 +91,7 @@ graphql = sending requests at ones
 end point = www.example.com/graphql
 
 
-  session mgmt
+   session mgmt
 >session fixaction = able to chane token
 >session  is not terminating after logout (back button clicking)
 >password reset 
@@ -100,3 +100,8 @@ end point = www.example.com/graphql
   token based vulnerability 
 >reusable token
 >old token can be used after getting a new token
+
+
+api vuln
+api documentation it contain all ifo about api
+api main vulneraility is info disuclosher
