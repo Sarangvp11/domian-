@@ -92,7 +92,7 @@ end point = www.example.com/graphql
 
 
    session mgmt
->session fixaction = able to chane token
+>session fixaction = able to change token
 >session  is not terminating after logout (back button clicking)
 >password reset 
 >password change
@@ -102,6 +102,8 @@ end point = www.example.com/graphql
 >old token can be used after getting a new token
 
 
-api vuln
+  api vuln
 api documentation it contain all ifo about api
 api main vulneraility is info disuclosher
+
+  web llm(large lang model)
