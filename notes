@@ -114,4 +114,6 @@ end point = www.example.com/graphql
 
 
 
-
+spf record spoofing 
+@gmail.com 
+spf is used to send mails to the real reciver 
