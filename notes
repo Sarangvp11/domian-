@@ -63,13 +63,13 @@ admin \>>> pro user >>> normal user >>> guest user
 /robote.txt it is used the end og url to find admin page path and etc
 
   ssrf (server side requesr forgery)
-server side attack with changing parameters 
-the parameter must communicate with another server 
-using a server to attack another/same server
+>server side attack with changing parameters 
+>the parameter must communicate with another server 
+>using a server to attack another/same server
 
   cros (cross-origin resources sharing)
-it is a funcanality used to share files
-allowing random domains 
+>it is a funcanality used to share files
+>allowing random domains 
 
 
   business logical vulnerability
@@ -82,9 +82,9 @@ eg:-price tampering
 
 
   graphql api vulnerability
-graphquerey language
-api= used to establish faster communication betweeen clint and server
-normal available apis catagraisec as REST 
+>graphquerey language
+>api= used to establish faster communication betweeen clint and server
+>normal available apis catagraisec as REST 
 
 REST request = sending request one by one 
 graphql = sending requests at ones  
@@ -114,6 +114,19 @@ end point = www.example.com/graphql
 
 
 
-spf record spoofing 
-@gmail.com 
-spf is used to send mails to the real reciver 
+ spf record spoofing 
+>@gmail.com 
+>spf is used to send mails to the real reciver 
+
+
+   wordpress
+>content mgmt system(cms)
+
+
+httpd://test.com/wp/v2/user/1
+wp-admin (bruteforce)
+xmlrpc.php it is a debug file to used to check all features it only accepts post request 
+we can change the requst post and manupulate requst to get user info
+public exploit >
+wpscan tool used to scan wordpress  
+
