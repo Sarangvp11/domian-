@@ -1,0 +1,20 @@
+>network scanning
+
+
+
+>NMAP TOOL
+open ports
+closed ports
+basic script
+services
+brute force
+vulnerability anlysis
+
+
+[commands] 
+basic scan> nmap 127.0.0.1
+all port scan> nmap -p- 127.0.0.1
+scrvice version> nmap -p- -sV 127.0.0.1 
+script> nmap -p- -sV -sC 127.0.0.1
+save output> > -o text.txt
+command binding> -sV + -sC = -sVC
