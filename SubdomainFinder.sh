@@ -41,7 +41,7 @@ echo "
 # Subdomain Tool
 # Author: [S@R@NG_VP]
 # Description: This script discovers subdomains for a given domain
-# Usage: ./script.sh -d example.com
+# Usage: ./SubdomainFinder.sh -d example.com
 ###########################################################
 "
 
@@ -195,7 +195,7 @@ function loading_icon() {
 
     echo -n "${loading_message} "
 
-    # This part is to make the cursor not blink
+    # This part is to make the cursor not blink -]id_'Fq3)JX|N4az4&C2fmo9Er6.\T7
     # on top of the animation while it lasts
     tput civis
     trap "tput cnorm" EXIT
